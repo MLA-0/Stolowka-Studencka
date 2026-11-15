@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagram przypadków użycia" id="d1">
+    <mxGraphModel dx="1426" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1020" pageHeight="830" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys" parent="1" style="rounded=1;arcSize=6;html=1;whiteSpace=wrap;fillColor=#fafafa;strokeColor=#666666;fontStyle=1;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;fontSize=13;" value="System Stołówka Studencka" vertex="1">
+          <mxGeometry height="780" width="700" x="160" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#333333;" value="Przeglądanie menu" vertex="1">
+          <mxGeometry height="60" width="250" x="190" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="Złożenie zamówienia" vertex="1">
+          <mxGeometry height="60" width="250" x="190" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#333333;" value="Sprawdzenie dostępności dań" vertex="1">
+          <mxGeometry height="60" width="250" x="190" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="Płatność online za zamówienie" vertex="1">
+          <mxGeometry height="60" width="250" x="190" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uc5" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#333333;" value="Obsługa nieudanej płatności" vertex="1">
+          <mxGeometry height="60" width="250" x="190" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="uc6" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#333333;" value="Śledzenie statusu zamówienia" vertex="1">
+          <mxGeometry height="60" width="250" x="190" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="uc7" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#333333;" value="Odbiór zamówienia" vertex="1">
+          <mxGeometry height="60" width="250" x="190" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="uc11" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#333333;" value="Przygotowanie i publikacja menu" vertex="1">
+          <mxGeometry height="60" width="250" x="190" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="uc8" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#333333;" value="Zarządzanie dostępnością dań" vertex="1">
+          <mxGeometry height="60" width="250" x="580" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc9" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="Realizacja zamówienia" vertex="1">
+          <mxGeometry height="60" width="250" x="580" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uc10" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#333333;" value="Weryfikacja numeru i wydanie zamówienia" vertex="1">
+          <mxGeometry height="60" width="250" x="580" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="uc12" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#333333;" value="Rejestracja opłaconego zamówienia" vertex="1">
+          <mxGeometry height="60" width="250" x="580" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Klient" vertex="1">
+          <mxGeometry height="80" width="40" x="40" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Administrator" vertex="1">
+          <mxGeometry height="80" width="40" x="40" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Pracownik&lt;br&gt;stołówki" vertex="1">
+          <mxGeometry height="80" width="40" x="940" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="System płatności&lt;br&gt;(zewnętrzny)" vertex="1">
+          <mxGeometry height="80" width="40" x="940" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="a1" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="a1" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="a1" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="a1" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="a1" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="a1" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="a2" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=none;exitX=1;exitY=0.4;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="a3" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=none;exitX=0;exitY=0.4;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="uc8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="a3" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=none;exitX=0;exitY=0.4;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="uc9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="a3" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=none;exitX=0;exitY=0.4;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="uc10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="a4" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=none;exitX=0;exitY=0.4;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="uc4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="uc2" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=open;endFill=0;dashed=1;" target="uc3" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="uc4" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=open;endFill=0;dashed=1;" target="uc12" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="uc5" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=open;endFill=0;dashed=1;" target="uc4" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="uc7" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=open;endFill=0;dashed=1;" target="uc10" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
