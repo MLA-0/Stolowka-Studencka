@@ -1,2 +1,0 @@
-# Stolowka-Studencka
-ueue

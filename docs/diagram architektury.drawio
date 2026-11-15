@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagram architektury systemu" id="d1">
+    <mxGraphModel dx="1712" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1180" pageHeight="840" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k" parent="1" style="rounded=1;arcSize=6;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Klient&lt;br&gt;(przeglądarka mobilna)" vertex="1">
+          <mxGeometry height="60" width="220" x="60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p" parent="1" style="rounded=1;arcSize=6;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Pracownik stołówki&lt;br&gt;(przeglądarka)" vertex="1">
+          <mxGeometry height="60" width="220" x="330" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ad" parent="1" style="rounded=1;arcSize=6;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Administrator&lt;br&gt;(przeglądarka)" vertex="1">
+          <mxGeometry height="60" width="220" x="600" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pres" parent="1" style="rounded=1;arcSize=6;html=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#999999;dashed=1;fontStyle=1;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;fontSize=13;" value="Warstwa prezentacji – aplikacja webowa" vertex="1">
+          <mxGeometry height="120" width="800" x="40" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="v1" parent="1" style="rounded=1;arcSize=6;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#6c8ebf;" value="Widok klienta&lt;br&gt;(menu, zamówienie, status)" vertex="1">
+          <mxGeometry height="55" width="220" x="60" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="v2" parent="1" style="rounded=1;arcSize=6;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#6c8ebf;" value="Panel pracownika&lt;br&gt;(zamówienia, dostępność)" vertex="1">
+          <mxGeometry height="55" width="220" x="330" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="v3" parent="1" style="rounded=1;arcSize=6;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#6c8ebf;" value="Panel administratora&lt;br&gt;(menu, konta, konfiguracja)" vertex="1">
+          <mxGeometry height="55" width="220" x="600" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="app" parent="1" style="rounded=1;arcSize=6;html=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#999999;dashed=1;fontStyle=1;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;fontSize=13;" value="Warstwa aplikacji – serwer backendowy&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="800" x="40" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" parent="1" style="rounded=1;arcSize=6;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Uwierzytelnianie&lt;br&gt;i autoryzacja" vertex="1">
+          <mxGeometry height="60" width="200" x="60" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="m2" parent="1" style="rounded=1;arcSize=6;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Moduł menu&lt;br&gt;i dostępności dań" vertex="1">
+          <mxGeometry height="60" width="200" x="340" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="m3" parent="1" style="rounded=1;arcSize=6;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Moduł zamówień" vertex="1">
+          <mxGeometry height="60" width="200" x="620" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="m4" parent="1" style="rounded=1;arcSize=6;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Moduł użytkowników&lt;br&gt;i konfiguracji" vertex="1">
+          <mxGeometry height="60" width="200" x="60" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="m5" parent="1" style="rounded=1;arcSize=6;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Moduł statusów i powiadomień&lt;br&gt;(czas rzeczywisty)" vertex="1">
+          <mxGeometry height="60" width="200" x="340" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="m6" parent="1" style="rounded=1;arcSize=6;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Moduł płatności&lt;br&gt;(adapter operatora)" vertex="1">
+          <mxGeometry height="60" width="200" x="620" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="db" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=12;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="Baza danych relacyjna&lt;br&gt;(menu, zamówienia,&lt;br&gt;użytkownicy, płatności)" vertex="1">
+          <mxGeometry height="80" width="240" x="320" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="ext" parent="1" style="rounded=1;arcSize=6;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="Operator płatności&lt;br&gt;(system zewnętrzny)" vertex="1">
+          <mxGeometry height="80" width="190" x="960" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="k" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=open;endFill=0;startArrow=open;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.1625;entryY=0;entryDx=0;entryDy=0;" target="pres" value="HTTPS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="p" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=open;endFill=0;startArrow=open;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="pres" value="HTTPS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="ad" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=open;endFill=0;startArrow=open;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.8375;entryY=0;entryDx=0;entryDy=0;" target="pres" value="HTTPS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="m3" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=open;endFill=0;" target="m2" value="dostępność">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="m3" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=open;endFill=0;" target="m6" value="żądanie płatności">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="m3" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=open;endFill=0;exitX=0.2;exitY=1;exitDx=0;exitDy=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;" target="m5" value="zmiana statusu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="m6" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=open;endFill=0;exitX=1;exitY=0.2;exitDx=0;exitDy=0;entryX=0;entryY=0.2;entryDx=0;entryDy=0;" target="ext" value="żądanie">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="ext" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=open;endFill=0;exitX=0;exitY=0.8;exitDx=0;exitDy=0;entryX=1;entryY=0.8;entryDx=0;entryDy=0;" target="m6" value="wynik (callback)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="app" style="html=1;edgeStyle=none;rounded=0;labelBackgroundColor=#ffffff;fontSize=11;endArrow=open;endFill=0;startArrow=open;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="db" value="SQL">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bFl5ukQcYUZuIc4CZGfx-2" edge="1" parent="1" source="app" style="endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="pres" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
