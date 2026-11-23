@@ -1,0 +1,4 @@
+Proponuję dać wzorzec Stan/State ( https://refactoring.guru/pl/design-patterns/state ).
+Moim zdaniem będzie najlepszy State bo skupiamy się na zamówieniu, które przechodzi od zamówionego do wydanego lub jest w stanie niedostępnym.
+Jeżeli osoba odpowiedzialna za uzasadnianie ma obiekcję to alternatywnie można dać observera/Obserwator ( https://refactoring.guru/pl/design-patterns/observer )
+Tutaj można by spróbować zastosować wzorzec nie względem zamówienia a względem pracownika, tylko że pracownik jest moim zdaniem mniej ważny niż zamówienie
